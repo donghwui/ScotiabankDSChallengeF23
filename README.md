@@ -1,7 +1,7 @@
 # Scotiabank Data Science Challenge
 The Scotiabank Data Science Challenge invites participants to engineer machine learning models, optimizing a large financial institution's loan approval system. The challenge focuses on the banking procedure of accurately evaluating an applicant's creditworthiness, balancing the act of maximizing interest revenues while minimizing potential losses from loan delinquencies.
 
-![Scotiabank Data Science Challenge](https://github.com/donghwui/ScotiabankDSChallengeF23/assets/63986023/56848a6b-deb4-4af9-b3ce-a9a9165869f9)
+<img src='./images/scotiabank-challenge.png'>
 
 
 # Process
@@ -17,18 +17,18 @@ The Scotiabank Data Science Challenge invites participants to engineer machine l
 ## Step 3: Data Visualization and Analysis 📈
 - Employed detailed histograms to visualize applicant data, focusing specifically on the delinquency rates within the 0-6% interval. Post-analysis, we compiled and exported the selected applicant IDs into a CSV file.
 
-<img src="https://github.com/donghwui/ScotiabankDSChallengeF23/assets/63986023/de6f2cc9-0cb3-4f93-8d5c-6a3d0f274da8" width="200">
+<img src="./images/pipeline-nodes.png" width="200">
 
 
 # Results 🥇
-<img src="https://github.com/donghwui/ScotiabankDSChallengeF23/assets/63986023/3acbd65d-1c2f-4140-8fb8-c8e696589cb6" width="500">
+<img src="./images/rank.png" width="500">
 
 By leveraging **Cortex Analytics**, powered by **SAS**, our model achieved the **highest net profit** and ranked **first place** on the leaderboard.
 - **Net Profit**: $548,214,371.75
 - **Approved Applicants**: 756,054 applicants
 
 ## ROC (Receiver Operating Characteristic) Graph Analysis 📝
-![image](https://github.com/donghwui/ScotiabankDSChallengeF23/assets/63986023/423b6b91-b401-4a30-9420-14088ee5e7a9)
+<img src="./images/roc.png">
 
 - The orange curve represents the training data set, while the purple curve represents the validation data set.
 - The data was partitioned into 70 (train) : 30 (validation) ratio in order to prevent overfitting.
@@ -36,4 +36,4 @@ By leveraging **Cortex Analytics**, powered by **SAS**, our model achieved the *
 - The minimal gap between the training and validation curves suggests that the model generalizes well without overfitting.
 
 ## More Insights 🔎
-![image](https://github.com/donghwui/ScotiabankDSChallengeF23/assets/63986023/f4df813b-135f-4dc4-bd16-37dd8a8b8401)
+<img src="./images/insight.png">
